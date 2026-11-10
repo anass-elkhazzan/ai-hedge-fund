@@ -96,7 +96,7 @@ python -m strategy_lab.run_lab        # needs minute data; see strategy_lab/data
 
 ## Tech stack
 
-Python (pandas, NumPy, Pydantic, SQLite, Jinja2), Claude Code subagents and skills, Model Context Protocol (MCP) servers, yfinance, SEC EDGAR, Finnhub, pytest, GitHub Actions, TradingView Pine Script, PowerShell.
+Python (pandas, NumPy, Pydantic, SQLite, Jinja2), Claude Code subagents and skills, Model Context Protocol (MCP) servers, yfinance, SEC EDGAR, Finnhub, pytest, TradingView Pine Script, PowerShell.
 
 ## Repository map
 
