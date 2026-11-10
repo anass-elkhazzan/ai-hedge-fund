@@ -1,0 +1,604 @@
+{
+ "MNQ": {
+  "sensitivity": {
+   "k=1.25 buf=0.25": {
+    "trades": 59,
+    "win%": 64,
+    "exp$": 24,
+    "PF": 1.5,
+    "total$": 1429,
+    "maxDD$": -631,
+    "pass%": 19,
+    "fail%": 2,
+    "days_to_pass": 50.0
+   },
+   "k=1.25 buf=0.5": {
+    "trades": 52,
+    "win%": 71,
+    "exp$": 36,
+    "PF": 1.97,
+    "total$": 1848,
+    "maxDD$": -411,
+    "pass%": 27,
+    "fail%": 0,
+    "days_to_pass": 51.0
+   },
+   "k=1.25 buf=0.75": {
+    "trades": 40,
+    "win%": 72,
+    "exp$": 21,
+    "PF": 1.67,
+    "total$": 836,
+    "maxDD$": -297,
+    "pass%": 0,
+    "fail%": 0,
+    "days_to_pass": 59.0
+   },
+   "k=1.25 buf=1.0": {
+    "trades": 33,
+    "win%": 76,
+    "exp$": 23,
+    "PF": 1.72,
+    "total$": 745,
+    "maxDD$": -228,
+    "pass%": 0,
+    "fail%": 0,
+    "days_to_pass": 51.0
+   },
+   "k=1.5 buf=0.25": {
+    "trades": 71,
+    "win%": 59,
+    "exp$": 35,
+    "PF": 1.58,
+    "total$": 2482,
+    "maxDD$": -711,
+    "pass%": 56,
+    "fail%": 2,
+    "days_to_pass": 43.0
+   },
+   "k=1.5 buf=0.5": {
+    "trades": 60,
+    "win%": 70,
+    "exp$": 46,
+    "PF": 2.1,
+    "total$": 2734,
+    "maxDD$": -444,
+    "pass%": 64,
+    "fail%": 0,
+    "days_to_pass": 44.0
+   },
+   "k=1.5 buf=0.75": {
+    "trades": 50,
+    "win%": 76,
+    "exp$": 36,
+    "PF": 2.08,
+    "total$": 1791,
+    "maxDD$": -445,
+    "pass%": 23,
+    "fail%": 0,
+    "days_to_pass": 51.0
+   },
+   "k=1.5 buf=1.0": {
+    "trades": 40,
+    "win%": 75,
+    "exp$": 27,
+    "PF": 1.82,
+    "total$": 1092,
+    "maxDD$": -304,
+    "pass%": 2,
+    "fail%": 0,
+    "days_to_pass": 55.0
+   },
+   "k=1.75 buf=0.25": {
+    "trades": 72,
+    "win%": 53,
+    "exp$": 26,
+    "PF": 1.39,
+    "total$": 1907,
+    "maxDD$": -1064,
+    "pass%": 41,
+    "fail%": 7,
+    "days_to_pass": 43.0
+   },
+   "k=1.75 buf=0.5": {
+    "trades": 60,
+    "win%": 60,
+    "exp$": 12,
+    "PF": 1.19,
+    "total$": 729,
+    "maxDD$": -1299,
+    "pass%": 8,
+    "fail%": 12,
+    "days_to_pass": 51.0
+   },
+   "k=1.75 buf=0.75": {
+    "trades": 49,
+    "win%": 67,
+    "exp$": 24,
+    "PF": 1.54,
+    "total$": 1182,
+    "maxDD$": -524,
+    "pass%": 7,
+    "fail%": 1,
+    "days_to_pass": 52.0
+   },
+   "k=1.75 buf=1.0": {
+    "trades": 41,
+    "win%": 73,
+    "exp$": 25,
+    "PF": 1.64,
+    "total$": 1033,
+    "maxDD$": -284,
+    "pass%": 2,
+    "fail%": 0,
+    "days_to_pass": 56.5
+   },
+   "k=2.0 buf=0.25": {
+    "trades": 61,
+    "win%": 43,
+    "exp$": 14,
+    "PF": 1.16,
+    "total$": 851,
+    "maxDD$": -1836,
+    "pass%": 23,
+    "fail%": 32,
+    "days_to_pass": 40.0
+   },
+   "k=2.0 buf=0.5": {
+    "trades": 54,
+    "win%": 52,
+    "exp$": 15,
+    "PF": 1.2,
+    "total$": 809,
+    "maxDD$": -1307,
+    "pass%": 13,
+    "fail%": 15,
+    "days_to_pass": 46.0
+   },
+   "k=2.0 buf=0.75": {
+    "trades": 51,
+    "win%": 57,
+    "exp$": 18,
+    "PF": 1.29,
+    "total$": 926,
+    "maxDD$": -949,
+    "pass%": 11,
+    "fail%": 8,
+    "days_to_pass": 49.0
+   },
+   "k=2.0 buf=1.0": {
+    "trades": 41,
+    "win%": 68,
+    "exp$": 43,
+    "PF": 1.94,
+    "total$": 1766,
+    "maxDD$": -631,
+    "pass%": 23,
+    "fail%": 0,
+    "days_to_pass": 50.0
+   },
+   "k=2.5 buf=0.25": {
+    "trades": 38,
+    "win%": 34,
+    "exp$": 26,
+    "PF": 1.24,
+    "total$": 986,
+    "maxDD$": -871,
+    "pass%": 26,
+    "fail%": 27,
+    "days_to_pass": 39.0
+   },
+   "k=2.5 buf=0.5": {
+    "trades": 34,
+    "win%": 38,
+    "exp$": -2,
+    "PF": 0.98,
+    "total$": -60,
+    "maxDD$": -883,
+    "pass%": 4,
+    "fail%": 27,
+    "days_to_pass": 49.0
+   },
+   "k=2.5 buf=0.75": {
+    "trades": 32,
+    "win%": 47,
+    "exp$": 20,
+    "PF": 1.26,
+    "total$": 625,
+    "maxDD$": -696,
+    "pass%": 4,
+    "fail%": 3,
+    "days_to_pass": 48.5
+   },
+   "k=2.5 buf=1.0": {
+    "trades": 27,
+    "win%": 67,
+    "exp$": 65,
+    "PF": 2.45,
+    "total$": 1755,
+    "maxDD$": -386,
+    "pass%": 23,
+    "fail%": 0,
+    "days_to_pass": 50.0
+   }
+  },
+  "slippage": {
+   "1 tick(s)": {
+    "trades": 60,
+    "win%": 70,
+    "exp$": 46,
+    "PF": 2.1,
+    "total$": 2734,
+    "maxDD$": -444,
+    "pass%": 64,
+    "fail%": 0,
+    "days_to_pass": 44.0
+   },
+   "2 tick(s)": {
+    "trades": 59,
+    "win%": 69,
+    "exp$": 44,
+    "PF": 2.04,
+    "total$": 2611,
+    "maxDD$": -448,
+    "pass%": 59,
+    "fail%": 0,
+    "days_to_pass": 45.0
+   },
+   "3 tick(s)": {
+    "trades": 59,
+    "win%": 69,
+    "exp$": 43,
+    "PF": 2.01,
+    "total$": 2546,
+    "maxDD$": -452,
+    "pass%": 57,
+    "fail%": 0,
+    "days_to_pass": 46.0
+   }
+  },
+  "risk": {
+   "$150": {
+    "trades": 42,
+    "win%": 74,
+    "exp$": 41,
+    "PF": 2.55,
+    "total$": 1731,
+    "maxDD$": -349,
+    "pass%": 13,
+    "fail%": 0,
+    "days_to_pass": 55.0
+   },
+   "$200": {
+    "trades": 60,
+    "win%": 70,
+    "exp$": 46,
+    "PF": 2.1,
+    "total$": 2734,
+    "maxDD$": -444,
+    "pass%": 64,
+    "fail%": 0,
+    "days_to_pass": 44.0
+   },
+   "$300": {
+    "trades": 70,
+    "win%": 66,
+    "exp$": 53,
+    "PF": 1.81,
+    "total$": 3717,
+    "maxDD$": -1057,
+    "pass%": 84,
+    "fail%": 3,
+    "days_to_pass": 34.0
+   }
+  },
+  "one_minute_check": {
+   "trades_compared": 32,
+   "same_outcome": 32,
+   "different_outcome": 0,
+   "points_5m": 514.91,
+   "points_1m": 514.91
+  }
+ },
+ "MES": {
+  "sensitivity": {
+   "k=1.25 buf=0.25": {
+    "trades": 72,
+    "win%": 67,
+    "exp$": 12,
+    "PF": 1.21,
+    "total$": 836,
+    "maxDD$": -1058,
+    "pass%": 12,
+    "fail%": 13,
+    "days_to_pass": 47.0
+   },
+   "k=1.25 buf=0.5": {
+    "trades": 72,
+    "win%": 69,
+    "exp$": 7,
+    "PF": 1.14,
+    "total$": 526,
+    "maxDD$": -1026,
+    "pass%": 4,
+    "fail%": 10,
+    "days_to_pass": 51.0
+   },
+   "k=1.25 buf=0.75": {
+    "trades": 72,
+    "win%": 72,
+    "exp$": 7,
+    "PF": 1.16,
+    "total$": 476,
+    "maxDD$": -550,
+    "pass%": 1,
+    "fail%": 5,
+    "days_to_pass": 55.0
+   },
+   "k=1.25 buf=1.0": {
+    "trades": 71,
+    "win%": 73,
+    "exp$": 0,
+    "PF": 1.01,
+    "total$": 26,
+    "maxDD$": -660,
+    "pass%": 0,
+    "fail%": 8,
+    "days_to_pass": 55.0
+   },
+   "k=1.5 buf=0.25": {
+    "trades": 76,
+    "win%": 57,
+    "exp$": 4,
+    "PF": 1.06,
+    "total$": 326,
+    "maxDD$": -1732,
+    "pass%": 13,
+    "fail%": 41,
+    "days_to_pass": 43.0
+   },
+   "k=1.5 buf=0.5": {
+    "trades": 75,
+    "win%": 59,
+    "exp$": -4,
+    "PF": 0.94,
+    "total$": -273,
+    "maxDD$": -1590,
+    "pass%": 3,
+    "fail%": 39,
+    "days_to_pass": 46.0
+   },
+   "k=1.5 buf=0.75": {
+    "trades": 75,
+    "win%": 63,
+    "exp$": -4,
+    "PF": 0.92,
+    "total$": -327,
+    "maxDD$": -1263,
+    "pass%": 1,
+    "fail%": 28,
+    "days_to_pass": 52.0
+   },
+   "k=1.5 buf=1.0": {
+    "trades": 72,
+    "win%": 64,
+    "exp$": -10,
+    "PF": 0.82,
+    "total$": -691,
+    "maxDD$": -1262,
+    "pass%": 0,
+    "fail%": 37,
+    "days_to_pass": 53.0
+   },
+   "k=1.75 buf=0.25": {
+    "trades": 82,
+    "win%": 39,
+    "exp$": -47,
+    "PF": 0.56,
+    "total$": -3891,
+    "maxDD$": -4911,
+    "pass%": 1,
+    "fail%": 98,
+    "days_to_pass": 36.0
+   },
+   "k=1.75 buf=0.5": {
+    "trades": 79,
+    "win%": 43,
+    "exp$": -37,
+    "PF": 0.61,
+    "total$": -2895,
+    "maxDD$": -4008,
+    "pass%": 0,
+    "fail%": 95,
+    "days_to_pass": 35.0
+   },
+   "k=1.75 buf=0.75": {
+    "trades": 79,
+    "win%": 48,
+    "exp$": -36,
+    "PF": 0.57,
+    "total$": -2847,
+    "maxDD$": -3875,
+    "pass%": 0,
+    "fail%": 94,
+    "days_to_pass": null
+   },
+   "k=1.75 buf=1.0": {
+    "trades": 76,
+    "win%": 51,
+    "exp$": -28,
+    "PF": 0.61,
+    "total$": -2117,
+    "maxDD$": -3033,
+    "pass%": 0,
+    "fail%": 85,
+    "days_to_pass": null
+   },
+   "k=2.0 buf=0.25": {
+    "trades": 75,
+    "win%": 37,
+    "exp$": -49,
+    "PF": 0.58,
+    "total$": -3644,
+    "maxDD$": -4788,
+    "pass%": 0,
+    "fail%": 98,
+    "days_to_pass": 37.5
+   },
+   "k=2.0 buf=0.5": {
+    "trades": 73,
+    "win%": 41,
+    "exp$": -44,
+    "PF": 0.57,
+    "total$": -3223,
+    "maxDD$": -4377,
+    "pass%": 0,
+    "fail%": 97,
+    "days_to_pass": null
+   },
+   "k=2.0 buf=0.75": {
+    "trades": 71,
+    "win%": 42,
+    "exp$": -50,
+    "PF": 0.47,
+    "total$": -3540,
+    "maxDD$": -4823,
+    "pass%": 0,
+    "fail%": 98,
+    "days_to_pass": null
+   },
+   "k=2.0 buf=1.0": {
+    "trades": 71,
+    "win%": 46,
+    "exp$": -43,
+    "PF": 0.49,
+    "total$": -3058,
+    "maxDD$": -4012,
+    "pass%": 0,
+    "fail%": 97,
+    "days_to_pass": null
+   },
+   "k=2.5 buf=0.25": {
+    "trades": 49,
+    "win%": 31,
+    "exp$": -30,
+    "PF": 0.78,
+    "total$": -1453,
+    "maxDD$": -2958,
+    "pass%": 5,
+    "fail%": 85,
+    "days_to_pass": 33.0
+   },
+   "k=2.5 buf=0.5": {
+    "trades": 49,
+    "win%": 33,
+    "exp$": -46,
+    "PF": 0.64,
+    "total$": -2232,
+    "maxDD$": -2879,
+    "pass%": 0,
+    "fail%": 90,
+    "days_to_pass": 40.0
+   },
+   "k=2.5 buf=0.75": {
+    "trades": 47,
+    "win%": 43,
+    "exp$": -33,
+    "PF": 0.7,
+    "total$": -1545,
+    "maxDD$": -2109,
+    "pass%": 0,
+    "fail%": 75,
+    "days_to_pass": 42.5
+   },
+   "k=2.5 buf=1.0": {
+    "trades": 46,
+    "win%": 43,
+    "exp$": -35,
+    "PF": 0.64,
+    "total$": -1598,
+    "maxDD$": -1885,
+    "pass%": 0,
+    "fail%": 72,
+    "days_to_pass": 44.0
+   }
+  },
+  "slippage": {
+   "1 tick(s)": {
+    "trades": 76,
+    "win%": 57,
+    "exp$": 4,
+    "PF": 1.06,
+    "total$": 326,
+    "maxDD$": -1732,
+    "pass%": 13,
+    "fail%": 41,
+    "days_to_pass": 43.0
+   },
+   "2 tick(s)": {
+    "trades": 74,
+    "win%": 58,
+    "exp$": -3,
+    "PF": 0.96,
+    "total$": -220,
+    "maxDD$": -1979,
+    "pass%": 7,
+    "fail%": 52,
+    "days_to_pass": 42.5
+   },
+   "3 tick(s)": {
+    "trades": 73,
+    "win%": 58,
+    "exp$": -12,
+    "PF": 0.85,
+    "total$": -856,
+    "maxDD$": -2212,
+    "pass%": 3,
+    "fail%": 66,
+    "days_to_pass": 41.0
+   }
+  },
+  "risk": {
+   "$150": {
+    "trades": 76,
+    "win%": 57,
+    "exp$": 2,
+    "PF": 1.03,
+    "total$": 116,
+    "maxDD$": -1473,
+    "pass%": 3,
+    "fail%": 21,
+    "days_to_pass": 47.5
+   },
+   "$200": {
+    "trades": 76,
+    "win%": 57,
+    "exp$": 4,
+    "PF": 1.06,
+    "total$": 326,
+    "maxDD$": -1732,
+    "pass%": 13,
+    "fail%": 41,
+    "days_to_pass": 43.0
+   },
+   "$300": {
+    "trades": 76,
+    "win%": 57,
+    "exp$": 4,
+    "PF": 1.03,
+    "total$": 283,
+    "maxDD$": -3083,
+    "pass%": 25,
+    "fail%": 68,
+    "days_to_pass": 29.0
+   }
+  },
+  "one_minute_check": {
+   "trades_compared": 29,
+   "same_outcome": 29,
+   "different_outcome": 0,
+   "points_5m": 69.49,
+   "points_1m": 69.49
+  }
+ }
+}

@@ -1,0 +1,103 @@
+# Secrets
+.env
+
+# Runtime data
+runs/*
+!runs/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+.DS_Store
+
+# Reference clone (full git repo, do not nest)
+reference/
+
+# Virtual environment and build artifacts
+.venv/
+dist/
+*.egg-info/
+
+# Moomoo OpenD (contains credentials)
+opend/
+
+# Tracker data (internal validation, not for users)
+tracker/tracker.db
+tracker/*.log
+tracker/trades.db
+crypto_tracker/crypto_tracker.db
+crypto_tracker/*.log
+
+# Test/debug artifacts
+.playwright-mcp/
+console-*.log
+page-*.yml
+*.tmp
+
+# Temp directories
+.claude/skills/temp_placeholder/
+
+# Stray scratch files
+/1.txt
+/2026-*.txt
+/betting main.txt
+/session-*.md
+/session_manifest.json
+/sessions_list.json
+/triggers.json
+/events_*.json
+/none_inspect.json
+/routine_raw_results*.json
+
+# Generated knowledge graph (rebuild locally with graphify)
+graphify-out/
+
+# Local Obsidian vault (not project content)
+artist/
+
+# Local plan/scratch docs
+docs/
+
+# Personal session notes (kept local; routines don't read it)
+HANDOFF.md
+
+# Playwright/routine setup leftovers (one-time browser automation artifacts)
+/*.png
+/routine_config.py
+/setup_routines.py
+/GPT_CHAT
+/ARTIST*.txt
+
+# Paper trading account state (local only)
+paper_broker/paper_broker.db
+paper_broker/config.json
+
+# Autotrade session logs
+logs/
+
+# Personal Claude Code settings
+.claude/settings.local.json
+
+# TradingView demo database
+tradingview/demo_replay.db
+
+# Strategy lab data cache
+strategy_lab/cache/
+
+# Portfolio hardening: never commit secrets, logs, runtime data or databases
+.env
+.env.*
+!.env.example
+logs/
+*.log
+runs/*
+!runs/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.archive/
+opend/
+reference/
+*.xlsx
+.mcp.local.json

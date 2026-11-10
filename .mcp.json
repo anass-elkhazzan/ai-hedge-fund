@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "paper-broker": {
+      "command": "python",
+      "args": ["paper_broker/server.py"],
+      "env": { "PYTHONUTF8": "1" }
+    },
+    "youtube": {
+      "command": "python",
+      "args": ["scripts/youtube_mcp.py"],
+      "env": { "PYTHONUTF8": "1" }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+---
+name: swing_catalyst_news track record
+last_updated: 2026-05-07
+last_run_id: 20260507_220640
+stale_after_days: 365
+target_words: 1200
+summary: 2 graded calls. (Appended by ai_hedge.grading.wiki_writer.)
+---
+
+# swing_catalyst_news — Track Record
+
+Auto-appended by the grading pipeline after each swing run. Each bullet is
+one resolved call scored against yfinance daily OHLC.
+
+## Graded calls log
+
+- — | META | bearish $630.0→$585.68 stop $645.0 | **expired_correct** (day 3, MFE 3.79%, MAE 0.0%) _(prior_run=20260501_142327, graded_in=20260504_143030)_
+- — | AAPL | bullish $278.5→$294.0 stop $269.5 | **in_progress** (day 3, MFE 3.13%, MAE -0.05%) _(prior_run=20260501_144523, graded_in=20260504_144833)_
+- — | MSFT | bearish $415.71→$385.85 stop $427.0 | **expired_neutral** (day 3, MFE 1.27%, MAE -0.34%) _(prior_run=20260501_153820, graded_in=20260504_153640)_
+- — | TSLA | bullish $393.0→$409.0 stop $368.39 | **expired_neutral** (day 3, MFE 1.23%, MAE -3.61%) _(prior_run=20260501_160246, graded_in=20260504_161542)_
+- — | GS | bearish $925.48→$864.45 stop $945.3 | **in_progress** (day 4, MFE 2.21%, MAE -1.11%) _(prior_run=20260430_190826, graded_in=20260504_192106)_
+- — | DIS | bullish $103.75→$107.11 stop $100.8 | **in_progress** (day 3, MFE 1.04%, MAE -0.75%) _(prior_run=20260501_221355, graded_in=20260504_221111)_
+- — | META | bearish $619.0→$564.76 stop $628.0 | **in_progress** (day 1, MFE 2.63%, MAE 0.0%) _(prior_run=20260504_143030, graded_in=20260505_140723)_
+- — | AAPL | bullish $275.5→$298.0 stop $268.5 | **in_progress** (day 1, MFE 1.86%, MAE -0.23%) _(prior_run=20260504_144833, graded_in=20260505_144544)_
+- 2026-05-04 | NVDA | bullish $198.5→$211.5 stop $195.8 | **stopped_out** (day 1, MFE 1.63%, MAE -1.89%) _(prior_run=20260504_125732, graded_in=20260505_163241)_
+- — | WDC | bullish $439.0→$471.13 stop $410.05 | **in_progress** (day 1, MFE 3.38%, MAE -2.39%) _(prior_run=20260504_203608, graded_in=20260505_203524)_
+- — | DIS | bullish $103.75→$107.11 stop $100.8 | **expired_wrong** (day 4, MFE 1.04%, MAE -2.39%) _(prior_run=20260501_221355, graded_in=20260505_220625)_
+- — | NVDA | bullish $198.5→$209.5 stop $194.5 | **in_progress** (day 1, MFE 0.88%, MAE -1.24%) _(prior_run=20260505_163241, graded_in=20260506_123913)_
+- — | META | bearish $610.0→$564.76 stop $621.0 | **in_progress** (day 1, MFE 1.58%, MAE -0.71%) _(prior_run=20260505_140723, graded_in=20260506_140335)_
+- — | AAPL | bullish $275.5→$298.0 stop $268.5 | **in_progress** (day 2, MFE 3.29%, MAE -0.23%) _(prior_run=20260504_144833, graded_in=20260506_144523)_
+- — | AMD | bearish $342.0→$310.0 stop $364.5 | **in_progress** (day 1, MFE 0.0%, MAE -5.14%) _(prior_run=20260505_131657, graded_in=20260506_150729)_
+- 2026-05-05 | TSLA | bearish $393.5→$381.4 stop $398.5 | **stopped_out** (day 1, MFE 1.14%, MAE -2.19%) _(prior_run=20260505_160654, graded_in=20260506_160353)_
+- — | JPM | bearish $311.5→$304.26 stop $316.5 | **in_progress** (day 1, MFE 1.51%, MAE 0.0%) _(prior_run=20260505_181525, graded_in=20260506_181533)_
+- — | GS | bearish $918.94→$864.45 stop $933.48 | **in_progress** (day 1, MFE 1.17%, MAE -0.31%) _(prior_run=20260505_190606, graded_in=20260506_190825)_
+- — | JNJ | bearish $226.5→$218.5 stop $230.5 | **in_progress** (day 1, MFE 0.71%, MAE -0.01%) _(prior_run=20260505_194525, graded_in=20260506_194605)_
+- — | WDC | bullish $462.0→$480.11 stop $446.62 | **in_progress** (day 1, MFE 3.92%, MAE -1.47%) _(prior_run=20260505_203524, graded_in=20260506_203627)_
+- — | MU | bullish $640.2→$692.31 stop $502.58 | **in_progress** (day 1, MFE 1.8%, MAE -5.42%) _(prior_run=20260505_211609, graded_in=20260506_211601)_
+- — | NVDA | bullish $196.5→$210.0 stop $191.5 | **in_progress** (day 1, MFE 5.99%, MAE 0.0%) _(prior_run=20260506_123913, graded_in=20260507_123732)_
+- — | META | bearish $612.0→$585.68 stop $621.0 | **in_progress** (day 1, MFE 2.27%, MAE -1.3%) _(prior_run=20260506_140335, graded_in=20260507_140427)_
+- — | AAPL | bullish $280.5→$298.0 stop $274.0 | **in_progress** (day 1, MFE 2.68%, MAE 0.0%) _(prior_run=20260506_144523, graded_in=20260507_144525)_
+- — | JPM | bearish $315.0→$304.26 stop $317.5 | **in_progress** (day 1, MFE 1.16%, MAE -0.4%) _(prior_run=20260506_181533, graded_in=20260507_181528)_
+- — | JNJ | bearish $225.55→$218.5 stop $227.25 | **in_progress** (day 1, MFE 1.15%, MAE -0.35%) _(prior_run=20260506_194605, graded_in=20260507_194523)_
+- — | MU | bullish $650.0→$710.5 stop $627.58 | **in_progress** (day 1, MFE 2.72%, MAE -3.45%) _(prior_run=20260506_211601, graded_in=20260507_211526)_
+- — | DIS | bullish $107.97→$111.61 stop $103.81 | **in_progress** (day 1, MFE 1.08%, MAE -2.46%) _(prior_run=20260506_220627, graded_in=20260507_220640)_
